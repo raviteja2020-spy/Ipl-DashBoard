@@ -1,0 +1,73 @@
+.latest-match-main-card {
+  background-color: #1e293b;
+  padding: 0.8rem;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+}
+.latest-match-inner-card {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 60%;
+  justify-content: space-between;
+}
+.compete-team-logo {
+  height: 13rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.compete-team-name {
+  font-size: 1.8rem;
+}
+.match-data {
+  font-size: 1.4rem;
+}
+
+.latest-match-inner-card-2 {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.latest-match-inner-details {
+  text-align: right;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+.line {
+  display: none;
+}
+@media (max-width: 768px) {
+  .latest-match-inner-card {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .latest-match-main-card {
+    background-color: #1e293b;
+    padding: 0.8rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .compete-team-logo {
+    height: 8rem;
+    margin-right: 1rem;
+    margin-left: 0px;
+  }
+  .latest-match-inner-card-2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .latest-match-inner-details {
+    text-align: left;
+    color: #ffffff;
+  }
+  .line {
+    border: 1px solid #475569;
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+}

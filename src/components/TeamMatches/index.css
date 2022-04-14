@@ -1,0 +1,61 @@
+.match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-match-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.banner {
+  height: 20rem;
+  width: 93vw;
+  text-align: center;
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .banner {
+    height: 20vh;
+    width: 100%;
+  }
+}
+.RCB {
+  background-color: #a4261d;
+}
+.KKR {
+  background-color: #5755a7;
+}
+.KXP {
+  background-color: #d91c1f;
+}
+.CSK {
+  background-color: #f7db00;
+}
+.RR {
+  background-color: #da237b;
+}
+.MI {
+  background-color: #13418b;
+}
+.SH {
+  background-color: #f26d22;
+}
+.DC {
+  background-color: #4f5db0;
+}
+.latest-match-heading {
+  font-size: 1rem;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 1rem;
+}

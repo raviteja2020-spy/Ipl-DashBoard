@@ -1,0 +1,50 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  width: 45%;
+  margin: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.team-logo {
+  height: 8rem;
+  margin-right: 0.5rem;
+  align-self: center;
+}
+
+.team-name {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .team-logo {
+    height: 4rem;
+    width: 5rem;
+  }
+  .team-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  .team-name {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+.team-item-link {
+  text-decoration: none;
+}
