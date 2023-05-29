@@ -91,7 +91,7 @@ class TeamMatches extends Component {
     return (
       <div className={`team-match-card ${id}`}>
         {isLoading ? (
-          <div testid="loader">
+          <div>
             <Loader type="TailSpin" color="#ffffff" height={50} width={50} />
           </div>
         ) : (

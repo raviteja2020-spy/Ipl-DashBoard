@@ -37,7 +37,7 @@ class Home extends Component {
           <h1>IPL DASHBOARD</h1>
         </div>
         {isLoading ? (
-          <div testid="loader">
+          <div>
             <Loader type="TailSpin" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
