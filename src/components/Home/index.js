@@ -34,7 +34,7 @@ class Home extends Component {
             alt="ipl logo"
             className="ipl-logo"
           />
-          <h1>IPL DASHBOARD BY Ravi Teja</h1>
+          <h1>IPL DASHBOARD BY Bhargav</h1>
         </div>
         {isLoading ? (
           <div>
